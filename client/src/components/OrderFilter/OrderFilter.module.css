@@ -1,0 +1,70 @@
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 0%; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 2%; 
+    font-family: 'robot', sans-serif;
+    letter-spacing: 2px;
+}
+
+.orden {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffcc00;
+    margin-left: 1%;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0px 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffcc00;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; 
+    font-family: 'robot', sans-serif;
+    letter-spacing: 2px;
+    accent-color: black;
+}
+
+.option:hover {
+    background-color: rgb(0, 0, 0)
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffcc00;
+}
+
+
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    cursor: pointer;
+    accent-color: #ffcc00; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+  .input[type="radio"]::before + label {
+    accent-color: rgb(115, 133, 26); 
+  }
+  .radioInput {
+   
+    color: #ff0000; 
+  }

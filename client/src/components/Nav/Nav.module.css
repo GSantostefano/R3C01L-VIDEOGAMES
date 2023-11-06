@@ -1,0 +1,41 @@
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.2);
+  letter-spacing: 2px;
+  margin: 1%;
+  
+}
+
+.Home {
+  margin-left: 1%;
+  font-size: 3rem;
+  color: #ffcc00;
+  cursor: pointer;
+  font-family: 'mariobros', sans-serif;
+}
+.Home:hover {
+
+  text-decoration:underline;
+}
+.btnCrear {
+  font-size:0.8rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #ffcc00;
+  font-weight: 700;
+  background-color: rgba(255, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'robot', sans-serif;
+}
+
+
+
+.btnCrear:hover {
+  background-color: rgba(252, 0, 0, 0.6);
+}

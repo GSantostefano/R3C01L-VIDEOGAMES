@@ -1,0 +1,15 @@
+export const GET_GENRES = "GET_GENRES";
+export const FILTER = "FILTER";
+export const ORDER = "ORDER";
+export const FILTER_BY_GENRES = "FILTER_BY_GENRES";
+export const PAGE = "PAGE";
+export const GET_VIDEOGAMES = "GET_VIDEOGAMES";
+export const GET_VIDEOGAME_NAME = "GET_VIDEOGAME_NAME";
+export const GET_VIDEOGAMES_ID = "GET_VIDEOGAMES_ID";
+export const POST_VIDEOGAMES = "POST_VIDEOGAMES";
+export const FILTER_RATING = "FILTER_RATING";
+
+
+export const UPDATE_FILTERS = "UPDATE_FILTERS";
+export const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
+export const SET_VIDEOGAMES_PER_PAGE = "SET_VIDEOGAMES_PER_PAGE";

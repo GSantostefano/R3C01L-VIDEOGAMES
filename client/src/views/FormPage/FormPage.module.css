@@ -1,0 +1,196 @@
+
+.formContainer {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(130, 41, 41, 0.712);
+    color: #ffcc00;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    font-family: 'robot', sans-serif;
+  }
+ .label{
+    font-size: 1rem;
+ }
+  .content{
+    margin-left: 5%;
+    float: right;
+    width: 70%;
+    font-family: 'robot', sans-serif;
+  }
+  .verticalText {
+    margin-left: 3%;
+    color: #ffcc00;
+    text-orientation:upright;
+    writing-mode: vertical-rl;
+    font-size: 3rem;
+    font-family: 'mariobros', sans-serif;
+  }
+  
+  .verticalText p {
+    margin: 5px 0; 
+  }
+  .select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+
+  .error {
+    color: rgb(0, 255, 17);
+    font-size: 0.6rem;
+    margin-top: 5px;
+    
+  }
+  
+  
+  .button {
+    width: 300px;
+    font-size:1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #ffcc00;
+    font-weight: 700;
+    background-color: rgba(255, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'mariobros', sans-serif;
+    margin-top: 2%;
+    
+  }
+  
+  .button:hover {
+    background-color: #ff00006e;
+    color: #ffcc00;
+  }
+  .button:disabled {
+    background-color: #ccc; /* Cambia el color de fondo a gris */
+    color: #999; /* Cambia el color del texto a gris claro */
+    cursor: not-allowed; /* Cambia el cursor a "no permitido" */
+  }
+  
+  
+  .genreList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .genreItem {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    user-select: none; /* Evita la selección de texto accidental */
+  }
+  
+  .genreItem input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .genreItem input[type="checkbox"]:checked  {
+    font-weight: bold;
+    accent-color: #ffcc00; /* Color de texto cuando está marcado */
+  }
+  .genreItem input[type="radio"]::before + label {
+    accent-color: rgb(115, 133, 26); 
+  }
+
+
+
+  .success-overlay {
+    position: fixed; /* Posición fija para cubrir toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    z-index: 999; /* Colocar encima de otros elementos */
+  }
+  
+  .success-alert {
+    height: 300px;
+    width: 20%;
+    background-color: rgba(19, 200, 6, 0.5); /* Fondo rojo para errores */
+    color: white; /* Texto blanco */
+    padding: 10px; /* Espaciado interior */
+    text-align: center; /* Texto centrado */
+    font-size: 20px; /* Tamaño de fuente */
+    border-radius: 5px; /* Borde redondeado */
+    margin-bottom: 10px; /* Margen inferior */
+    border-radius: 20px;
+    border: 5px;
+    box-shadow: 0 0 25px lawngreen;
+    font-family: 'mariobros', sans-serif;
+  }
+  .btnAlert{
+   
+    top:30%;
+    position: relative;
+    float: right;
+    justify-content: center;
+    width: 200px;
+    font-size:1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #000000;
+    font-weight: 700;
+    
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'robot', sans-serif;
+  }
+
+/* Agrega estilos para los mensajes de alerta de error */
+.error-alert {
+  height: 300px;
+  background-color: rgba(255, 0, 0, 0.5); /* Fondo rojo para errores */
+  color: white; /* Texto blanco */
+  padding: 10px; /* Espaciado interior */
+  text-align: center; /* Texto centrado */
+  font-size: 20px; /* Tamaño de fuente */
+  border-radius: 5px; /* Borde redondeado */
+  margin-bottom: 10px; /* Margen inferior */
+  border-radius: 20px;
+    border: 5px;
+    box-shadow: 0 0 25px red;
+    font-family: 'mariobros', sans-serif;
+
+}
+.success-alert img {
+  max-width: 200px;
+  max-height: 200px; /* Margen superior para separar la imagen del texto */
+}
+.error-alert img {
+  max-width: 200px;
+  min-height: 200px; 
+  /* Ancho máximo de la imagen */
+   /* Margen superior para separar la imagen del texto */
+}
+
+
+
+@font-face {
+ font-family: 'mariobros';
+ src: url('../../assets/SuperMario256.ttf') format('woff2');
+}

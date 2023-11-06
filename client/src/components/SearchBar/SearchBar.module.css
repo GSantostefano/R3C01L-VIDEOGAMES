@@ -1,0 +1,47 @@
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: none;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+.Home {
+  font-size: 30px;
+  color: #ffcc00;
+  cursor: pointer;
+}
+
+.btnBuscar {
+  font-size:0.8rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #ffcc00;
+  font-weight: 700;
+  background-color: rgba(255, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'robot', sans-serif;
+}
+
+.btnBuscar:hover {
+  background-color: rgba(252, 0, 0, 0.6);
+}
+
+.input {
+  flex-grow: 1;
+  padding: 10px 15px;
+  color: #ffcc00;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-left: 10px;
+  outline: none;
+}
+.input:focus {
+  background-color: rgba(252, 0, 0, 0.432);
+  border: 1px solid #ffcc00;
+}

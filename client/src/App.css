@@ -1,0 +1,14 @@
+body {
+
+   font-family: 'robot', sans-serif;
+}
+
+@font-face {
+  font-family: 'robot';
+  src: url('./font1.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'mariobros';
+  src: url('../../assets/SuperMario256.ttf') format('woff2');
+ }
